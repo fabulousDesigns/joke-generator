@@ -1,24 +1,4 @@
----
-layout: engineering-education
-status: publish
-published: true
-url: /random-joke-generator-a-complete-guide/
-title: Random Joke Generator in Javascript: A Complete Guide
-description: In this tutorial, we will create a random joke generator using Javascript.
-author: esther-maina
-date: 2022-01-12T00:00:00-06:10
-topics: [Languages]
-excerpt_separator: <!--more-->
-images:
-
-  - url: /engineering-education/random-joke-generator-a-complete-guide/hero.jpg
-    alt: Random Joke Generator in Javascript: A Complete Guide Hero Image
----
-
-Application programming interface(API) enables one to get material from other websites and display it anywhere you wish.
-
-<!--more-->
-
+### Intoduction
 This tutorial will teach you how to design a javaScript joke generator utilizing API links, a fantastic project for beginner developers to practice learning JavaScript.
 
 ### Table of contents
@@ -62,7 +42,7 @@ The following files will be available:
 
 This is the file structure.
 
-![Output file arrangement](engineering-education/random-joke-generator-a-complete-guide/output-file-arrangement.png)
+![Output file arrangement](random-joke-generator-a-complete-guide/output-file-arrangement.png)
 
 #### Step 1: Basic structure of the joke generator
 
@@ -101,7 +81,7 @@ The box will be on the top center position of our page by setting its `position`
 
 The box should resemble the following picture in appearance.
 
-![Output box](engineering-education/random-joke-generator-a-complete-guide/output-box.png)
+![Output box](random-joke-generator-a-complete-guide/output-box.png)
 
 #### Step 2: Adding a title
 
@@ -119,7 +99,7 @@ span {
 
 After adding the title, we should have something close to this.
 
-![Output title](engineering-education/random-joke-generator-a-complete-guide/output-title.png)
+![Output title](random-joke-generator-a-complete-guide/output-title.png)
 
 #### Step 3: Set up the joke viewing zone
 
@@ -152,7 +132,7 @@ Using `.content-fade` we will set the `opacity` to `1` which essentially means w
 
 So far, we should have the following, as displayed below.
 
-![Output joke container](engineering-education/random-joke-generator-a-complete-guide/output-joke-container.png)
+![Output joke container](random-joke-generator-a-complete-guide/output-joke-container.png)
 
 #### Step 4: Set up the generate joke button
 
@@ -180,7 +160,7 @@ This button will help us generate random jokes when clicked and as a result, we 
 
 Below is the output after adding the button.
 
-![Output button](engineering-education/random-joke-generator-a-complete-guide/output-btn.png)
+![Output button](random-joke-generator-a-complete-guide/output-btn.png)
 
 #### Step 5: Activating the button
 
@@ -228,7 +208,7 @@ The last part is to assign the method we just created to display a joke whenever
 generateBtn.addEventListener("click", acquireJoke);
 ```
 
-![Output joke](engineering-education/random-joke-generator-a-complete-guide/output-joke.png)
+![Output joke](random-joke-generator-a-complete-guide/output-joke.png)
 
 ### Conclusion
 
